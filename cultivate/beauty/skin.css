@@ -1,0 +1,83 @@
+html, body{
+    margin: 0;
+    padding:0;
+    background-color: #310000;
+    /* background-image: linear-gradient(#2d434b, #000000); */
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    animation: fadein 2s;
+  }
+
+.center {
+    margin: 15%;
+    text-align: center;
+}
+
+.center-text {
+    font-size: 730%;
+    color: #895a6f;
+    font-family: FuturaPTLight;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+
+}
+
+.mContainer{
+  max-width: 100%;
+  height: 400px;
+  margin: 15%;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  padding: 15%;
+}
+
+.m{
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  border-width: 10%;
+}
+
+img{
+  border-width: 10px;
+  border-style: solid;
+  border-color: #895a6f;
+  border-radius: 2%;
+}
+
+@font-face{
+    font-family: FuturaPTLight;
+    src: url(../../fonts/FuturaPTLight.otf);
+  }
+  @font-face{
+    font-family: FippsRegular;
+    src: url(../../fonts/Fipps-Regular.otf);
+  }
+  @font-face{
+    font-family: PressStart2P;
+    src: url(../../fonts/PressStart2P.ttf)
+  }
+  @font-face{
+    font-family: BodgeR;
+    src: url(../../fonts/BodgeR.ttf);
+  }
+  @font-face{
+    font-family: BodgeO;
+    src: url(../../fonts/BodgeO.ttf);
+  }
+
+
+  @keyframes fadein{
+      from { opacity: 0; }
+        to { opacity: 1; }
+  }
+
+  @keyframes fadein-text{
+    from { opacity: 0; color: #000000 ;}
+      to { opacity: 1; color: #310000;}
+}

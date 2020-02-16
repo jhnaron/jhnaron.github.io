@@ -1,0 +1,535 @@
+html, body{
+  margin: 0;
+  padding:0;
+  background-color: #000000;
+  /* background-image: linear-gradient(#2d434b, #000000); */
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+header {
+  width: 100%;
+  height: 560px;
+  /* background-color:  #000000; */
+  background-image: linear-gradient(#2d434b, #000000);
+  text-align: center;
+  padding: 1%;
+}
+footer {
+  box-shadow: 0px 5px 2px 0px #000000 inset;
+  width: 100%;
+  height: 60px;
+  background-color: #bb8256;
+}
+#about {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 15%;
+}
+#works {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 15%;
+  /* display: block; */
+}
+#contact {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 15%;
+}
+.headerAboutContainer{
+  width: 15%;
+  height: 80px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+}
+
+.headerWorksContainer{
+  width: 15%;
+  height: 80px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+}
+.headerContactContainer{
+  width: 15%;
+  height: 80px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+}
+/*Profile division*/
+.containerAboutImage{
+  max-width: 100%;
+  max-height: 100%;
+  margin: 15%;
+  height: 400px;
+  padding: 1%;
+}
+.containerProfileImage{
+  margin: 0 auto;
+  height: 100%;
+  width: 38%;
+  justify-content: center;
+  background-image: url(../images/dp4v2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-width: 30%;
+  border-color: #ffffff;
+}
+/*About division*/
+.containerAbout{
+  background-color: #2c4446;
+  width: 100%;
+  height: 350px;
+  padding: 1%;
+}
+/*Work division*/
+.containerWorks{
+  background-color: #1b244b;
+  width: 100%;
+  height: 700px;
+  padding: 1%;
+  border-radius: 1%;
+}
+.containerInnerText {
+  background-color: #141935;
+  width: 45%;
+  height: 500px;
+  margin: 10px;
+  float: left;
+  border-radius: 4%;
+}
+
+.containerInnerImage {
+  width: 45%;
+  height: 500px;
+  margin: 10px;
+  float: right;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.imgProj1{
+  min-height: 100%;
+  min-width: 100%;
+  flex-shrink: 0;
+}
+
+
+/*Contact division*/
+.containerContact{
+  background-color: #1b244b;
+  width: 100%;
+  height: 550px;
+  padding: 1%;
+}
+.containerMedia{
+  background-color: #c44e5e;
+  width: 23%;
+  height: 300px;
+  float:left;
+  text-align: center;
+  margin: 1%;
+  border-radius: 3%;
+}
+.containerMediaIcon{
+  width: 70%;
+  height: 150px;
+  display: inline-block;
+  margin: 5%;
+}
+.containerMediaInfo{
+  width: 90%;
+  height: 50px;
+  display: inline-block;
+  margin: 5%;
+  text-align: center;
+}
+.twitterIcon{
+  background-image: url(../images/twitter3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  margin: 0 auto;
+}
+.twitterIcon:hover{
+  background-color: #4691c4;
+  border-radius: 37%;
+  border-style: groove;
+  border-color: #ffffff;
+}
+.githubIcon{
+  background-image: url(../images/GitHubIcon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  margin: 0 auto;
+}
+.githubIcon:hover{
+  background-color: #000000;
+  border-radius: 37%;
+  border-style: groove;
+  border-color: #ffffff;
+}
+.gmailIcon{
+  background-image: url(../images/gmail.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  margin: 0 auto;
+}
+.gmailIcon:hover{
+  background-color: #d63062;
+  border-radius: 37%;
+  border-style: groove;
+  border-color: #ffffff;
+}
+.itchIcon{
+  background-image: url(../images/itch.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  margin: 0 auto;
+}
+.itchIcon:hover{
+  background-color: #d4444b;
+  border-radius: 37%;
+  border-style: groove;
+  border-color: #ffffff;
+}
+/* all texts */
+.noSelect{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+   user-select: none;
+}
+.textContent{
+  font-size: 150%;
+  font-family: FuturaPTLight;
+  color: #ffffff;
+  padding: 10%;
+  cursor: default;
+}
+.textMediaInfo{
+  font-size: 110%;
+  font-family: BodgeO;
+  color: #ffffff;
+  text-align: center;
+  cursor: default;
+}
+.textAbout{
+  font-size: 160%;
+  font-family: BodgeR;
+  color: #ffffff;
+  text-align: left;
+  padding: 3%;
+  cursor: default;
+}
+/*Header Tomefrog*/
+.textHeader{
+  font-size: 400%;
+  font-family: FippsRegular;
+  color: #17e1f0;
+  text-decoration: none;
+  cursor: default;
+
+  animation-name: tomefrogAnim;
+  animation-duration: 3s;
+}
+.textHeader:hover{
+  animation-name: shine;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.headerTagLinks{
+  font-size: 100%;
+  font-family: FippsRegular;
+  color: #17e1f0;
+  text-decoration: none;
+}
+.headerTagLinks:hover{
+  font-size: 120%;
+  font-family: FippsRegular;
+  color: #b5f8fd;
+  text-decoration: none;
+  animation-name: expand;
+  animation-duration: 0.3s;
+}
+.textId{
+  font-size: 350%;
+  font-family: BodgeR;
+  color: #ffb618;
+  text-align: center;
+  box-shadow: inset 0 0px white, inset 0 -1px #ffffff;
+}
+/*Text for displaying the name of work*/
+.textWorkName{
+  font-size: 130%;
+  font-family: FippsRegular;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+.textWorkLink{
+  font-size: 120%;
+  font-family: BodgeO;
+  color: #c95672;
+  text-align: center;
+  text-decoration: none;
+}
+@font-face{
+  font-family: FuturaPTLight;
+  src: url(../fonts/FuturaPTLight.otf);
+}
+@font-face{
+  font-family: FippsRegular;
+  src: url(../fonts/Fipps-Regular.otf);
+}
+@font-face{
+  font-family: PressStart2P;
+  src: url(../fonts/PressStart2P.ttf)
+}
+@font-face{
+  font-family: BodgeR;
+  src: url(../fonts/BodgeR.ttf);
+}
+@font-face{
+  font-family: BodgeO;
+  src: url(../fonts/BodgeO.ttf);
+}
+
+@keyframes tomefrogAnim{
+    0% {font-size: 420%; color: white;}
+  20% {font-size: 400%; color: #17e1f0;}
+}
+
+@keyframes expand{
+  0% {font-size: 100%}
+    20% {font-size: 120%}
+}
+
+@keyframes shine {
+    10%{ font-size: 400%; color: #17e1f0;}
+  100% {font-size: 420%; color: #17e1f0;}
+}
+
+.typewriter {
+  color: #fff;
+  font-size: 150%;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+/*  border-right: .15em solid orange; Blinking cursor thingy */
+  white-space: nowrap; /* Keeps it on a single line */
+  margin: 0 auto; /* Scrolling effect thingy */
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+@media only screen and (max-width: 1260px) {
+
+    .containerProfileImage{
+      width: 60%;
+    }
+    .containerAbout{
+      width: 100%;
+      height: 600px;
+      padding: 0%;
+    }
+    /*works*/
+    .containerWorks{
+      width: 100%;
+      height: 1300px;
+      padding: 1%;
+      border-radius: 1%;
+      position: relative;
+    }
+    .containerInnerText {
+      width: 95%;
+      height: 500px;
+      margin: 10px;
+      position: absolute;
+      top: 50%;
+      left: 0px;
+    }
+    .containerInnerImage {
+      width: 85%;
+      height: 530px;
+      margin: 10px;
+      position: absolute;
+      top: 8%;
+      left: 40px;
+    }
+  }
+
+@media screen and (max-width: 640px) {
+  .containerProfileImage{
+    width: 100%;
+  }
+  #about{
+    margin: 0%;
+  }
+  #works{
+    margin: 0%;
+  }
+  #contact{
+    margin: 0%;
+  }
+  .headerAboutContainer{
+    width: 30%;
+    height: 50px;
+
+  }
+  .headerTagLinks{
+    animation: none !important;
+  }
+  .headerWorksContainer{
+    width: 30%;
+    height: 50px;
+
+  }
+  .headerContactContainer{
+    width: 30%;
+    height: 50px;
+
+  }
+  /*Containers*/
+  .containerAbout{
+    width: 100%;
+    height: 600px;
+    padding: 0%;
+  }
+  .containerWorks{
+    width: 100%;
+    height: 1300px;
+    padding: 1%;
+    border-radius: 1%;
+    position: relative;
+  }
+  .containerInnerText {
+    width: 95%;
+    height: 400px;
+    margin: 10px;
+    position: absolute;
+    top: 60%;
+    left: 0px;
+  }
+  
+  .containerInnerImage {
+    width: 92%;
+    height: 320px;
+    margin: 10px;
+    position: absolute;
+    top: 10%;
+    left: 0px;
+  }
+  /*texts*/
+  .textHeader{
+    font-size: 250%;
+    animation: none !important;
+  }
+  .textAbout{
+    font-size: 120%;
+    font-family: BodgeR;
+    text-align: left;
+    padding: 5%
+  }
+  /*Contact division*/
+.containerContact{
+  width: 100%;
+  height: 750px;
+  padding: 1%;
+}
+.containerMedia{
+  width: 47%;
+  height: 230px;
+  float:left;
+  text-align: center;
+}
+.containerMediaIcon{
+  width: 40%;
+  height: 100px;
+  display: inline-block;
+  margin: 5%;
+}
+.containerMediaInfo{
+  width: 90%;
+  height: 50px;
+  display: inline-block;
+  margin: 5%;
+}
+.twitterIcon{
+  background-image: url(../images/twitter3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+  float: left;
+  margin: 0 auto;
+}
+
+.githubIcon{
+  background-image: url(../images/GitHubIcon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+  float: left;
+  margin: 0 auto;
+}
+
+.gmailIcon{
+  background-image: url(../images/gmail.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+  float: left;
+  margin: 0 auto;
+}
+
+.itchIcon{
+  background-image: url(../images/itch.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+  float: left;
+  margin: 0 auto;
+}
+.flow :hover, .flow{
+  text-decoration: none !important;
+  color: #ffffff !important;
+
+}
+}

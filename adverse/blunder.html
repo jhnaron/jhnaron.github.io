@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>blunder</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <!--audio-->
+    <audio id="bgm" autoplay loop>
+        <source src="audio/Pluto.mp3">
+    </audio>
+
+    <div class="containerMain">
+        <div class="containerText">
+            <p class="text1 noSelect">Hello</p>
+        </div>
+        <div class="containerEmpty">
+            
+        </div>
+    </div>
+
+    <div class="containerMain">
+        <div class="containerEmpty">
+
+        </div>
+        <div class="containerText">
+            <p class="text2 noSelect " id="2">this is a teaser for probably my next project</p>
+        </div>
+    </div>
+
+    <div class="containerMain">
+        <div class="containerText" id="3">
+            <p class="text3 noSelect">I'm planning to create a short story on a phone</p>
+        </div>
+
+        <div class="containerEmpty">
+            
+        </div>
+    </div>
+
+    <div class="containerMain" id="4">
+        <div class="containerNames">
+            <p class="text4 noSelect">2</p>
+        </div>
+        <div class="containerNames">
+            <p class="text4 noSelect">1</p>
+        </div>
+        <div class="containerNames">
+            <p class="text4 noSelect">1</p>
+        </div>  
+    </div>
+    <div class="containerMain">
+            <div class="containerNames">
+                <p class="text4 noSelect">8</p>
+            </div>
+            <div class="containerNames">
+                <p class="text4 noSelect">2</p>
+            </div>
+            <div class="containerNames">
+                <p class="text4 noSelect">9</p>
+            </div>  
+        </div>
+    <script>
+            var audio = document.getElementById("bgm");
+            audio.volume = 0.2;
+
+            setTimeout(function(){window.location.hash = '#4';},15000);
+    </script>
+</body>
+</html>
